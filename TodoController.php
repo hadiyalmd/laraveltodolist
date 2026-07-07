@@ -15,6 +15,7 @@ class TodoController extends Controller
     }
 
     // Store a new todo
+     // Mark todo as completed
     public function store(Request $request)
     {
         $request->validate([
